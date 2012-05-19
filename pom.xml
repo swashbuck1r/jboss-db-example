@@ -3,7 +3,7 @@
    <modelVersion>4.0.0</modelVersion>
 
    <groupId>org.jboss.tools.examples</groupId>
-   <artifactId>jboss-demo</artifactId>
+   <artifactId>jboss-db-example</artifactId>
    <version>0.0.1-SNAPSHOT</version>
    <packaging>war</packaging>
    <name>Java EE 6 webapp project</name>
