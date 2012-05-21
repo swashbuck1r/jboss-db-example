@@ -1,5 +1,8 @@
 This is an example JBoss application that is ready to deploy on CloudBees.
 
+[[Install on CloudBees]](http://clickstart.apps.cloudbees.com/app.jsp?template=https://raw.github.com/swashbuck1r/jboss-db-example/master/clickstart.json#newApp)
+===============
+
 This example shows how to setup an app that uses  persistence.xml with a CloudBees database.
 
 Requirements
