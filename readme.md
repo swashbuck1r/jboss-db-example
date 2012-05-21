@@ -9,7 +9,7 @@ Requirements
 -----
 
 * Install Maven 3.0.4+
-* Sign up for an account at www.cloudBees.com
+* Sign up for an account at www.cloudbees.com
 * Install the CloudBees SDK (for bees commands)
 
 
@@ -18,7 +18,7 @@ Instructions
 
 Get the source
 
-    git clone git@github.com:swashbuck1r/jboss-db-example.git
+    git clone git://github.com/swashbuck1r/jboss-db-example.git
 
 Build the WAR file
 
