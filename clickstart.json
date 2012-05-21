@@ -1,0 +1,21 @@
+{
+    "id": "jboss-db-example",
+    "name": "Maven - JBoss MySQL",
+    "source": "git://github.com/swashbuck1r/jboss-db-example.git",
+    "runtime": {
+        "type": "jboss"
+    },
+    "databases": [
+        {
+            "type": "mysql",
+            "alias": "ExampleDS"
+        }
+    ],
+    "build-with-jenkins": {
+        "template": {
+            "type": "maven",
+            "options": {
+            }
+        }
+    }
+}
