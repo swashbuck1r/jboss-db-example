@@ -1,0 +1,30 @@
+requires git;
+requires maven;
+requires cloudbees;
+
+properties {
+    appId: prompt("The application id on CloudBees")
+}
+
+source with git {
+    url: 'git://github.com/swashbuck1r/jboss-db-example.git'
+}
+
+build, release, store with maven {
+    groupId: 'org.jboss.tools.examples',
+    artifactId: 'jboss-db-example'
+}
+
+publish with cloudbees {
+    id: '${appId}',
+    runtime: {
+        type: 'jboss'
+    },
+    databases: [
+        {
+            type: "mysql",
+            alias: "ExampleDS"
+        }
+    ]
+}
+
